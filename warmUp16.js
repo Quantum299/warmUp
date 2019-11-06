@@ -22,7 +22,7 @@
 function instances(str) {
 	
 	var a = 0 ;
-	var b = 0;
+	var b = 0 ;
 	var l = 0;
 	var n = 0;
 	var o = 0;
