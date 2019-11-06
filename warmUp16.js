@@ -16,3 +16,34 @@
 // Constraints:
 // 1 <= text.length <= 10^4
 // text consists of lower case English letters only.
+
+
+
+function instances(str) {
+	
+	var a = 0 ;
+	var b = 0;
+	var l = 0;
+	var n = 0;
+	var o = 0;
+
+for(var i = 0; i < str.length; i++) {
+	
+	if(str[i] === "a") {
+			a ++
+	} else if(str[i] === "b") {
+			b ++
+	} else if(str[i] === "l") {
+			l ++
+	} else if(str[i] === "n") {
+			n ++
+	} else if(str[i] === "o") {
+			o ++
+	}
+}
+
+	l = Math.floor(l / 2);
+	o = Math.floor(o / 2);
+    
+    return Math.min(a, b, l, n, o )
+}
