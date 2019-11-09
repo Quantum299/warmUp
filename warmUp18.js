@@ -15,17 +15,17 @@ function occurences(str){
   
   var result =[];
   var array=[];
-  var count =0;
+  var count =0 
   
-  	for(var i =0;i<str.length;i++){
+  	for(var i =0;i< str.length;i++){
     	array.push(str[i])
     		for(var j =0;j<array.length;j++){
       			if(array[j]===str[i]){
-      				count++;
+      				count++ 
     }
   }
   	result.push(count)
-  	count=0;
+  	count=0 
 }
 return result.join('');
 }
