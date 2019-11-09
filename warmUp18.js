@@ -25,7 +25,7 @@ function occurences(str){
     }
   }
   	result.push(count)
-  	count=0 
+  	count=0 ;
 }
-return result.join('');
+return result.join('')
 }

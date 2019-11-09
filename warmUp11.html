@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	  <link rel="stylesheet" type="text/css" href="warmUp11.css" />
+	  <script src='https://code.jquery.com/jquery-2.2.4.js'></script>	
+	  <script src=warmUp11.js></script>
+
+</head>
+<body>
+  <div>
+      <button id="left">Left</button>
+      <button id="right">Right</button>
+  </div>
+
+  <button >Create</button>
+
+
+   <div>
+
+
+      <ul id='leftList'> 
+    <li>Name</li>
+    <li>Age</li>
+    <li>Hobbies</li>
+    <li>Hometown</li>
+  </ul>
+
+   <ul id="rightList" > 
+    <li>Name</li>
+    <li>Age</li>
+    <li>Hobbies</li>
+    <li>Hometown</li>
+  </ul>
+   </div>
+
+
+
+<script type="text/javascript">
+  $("#left").click(function(){
+ $("#leftList").append('<li>' )
+})
+  $("#right").click(function(){
+ $("#rightList").append('<li>' )
+})
+</script>
+
+
+</body>
+</html> 
