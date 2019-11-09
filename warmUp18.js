@@ -10,3 +10,22 @@
 
 // input   =  "aaaaaaaaaaaa"
 // result  =  "123456789101112"
+
+function occurences(str){
+  
+  var result =[];
+  var array=[];
+  var count =0;
+  
+  	for(var i =0;i<str.length;i++){
+    	array.push(str[i])
+    		for(var j =0;j<array.length;j++){
+      			if(array[j]===str[i]){
+      				count++;
+    }
+  }
+  	result.push(count)
+  	count=0;
+}
+return result.join('');
+}
